@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 800" role="img" aria-label="rpiv-pi — Skill-based development workflow for Pi Agent" preserveAspectRatio="xMidYMid meet">
+  <title>rpiv-pi — Skill-based development workflow for Pi Agent</title>
+  <defs>
+    <style>
+      .mono { font-family: 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+      .serif { font-family: 'Iowan Old Style', 'Hoefler Text', Charter, 'Source Serif Pro', Georgia, serif; }
+      .ink { fill: #ede6d3; }
+      .text-quiet { fill: #a8a29e; }
+      .text-distant { fill: #9c968d; }
+      .ochre { fill: #a8896c; }
+      .sage { fill: #8a9580; }
+      .sage-deep { fill: #5e6b56; }
+    </style>
+    <radialGradient id="wash-ochre" cx="25%" cy="10%" r="65%">
+      <stop offset="0%" stop-color="#a8896c" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#a8896c" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="wash-sage" cx="85%" cy="90%" r="55%">
+      <stop offset="0%" stop-color="#8a9580" stop-opacity="0.07"/>
+      <stop offset="100%" stop-color="#8a9580" stop-opacity="0"/>
+    </radialGradient>
+
+  </defs>
+
+  <rect width="1280" height="800" fill="#1c1a17"/>
+  <rect width="1280" height="800" fill="url(#wash-ochre)"/>
+  <rect width="1280" height="800" fill="url(#wash-sage)"/>
+
+  <g fill="none" stroke="#8a9580" stroke-linecap="round" opacity="0.45">
+    <path d="M1120 60 q36 -52 88 -60 q40 -5 68 14" stroke-width="1.1"/>
+    <path d="M1140 80 q28 -18 60 -14 q24 3 42 14" stroke-width="0.7" opacity="0.6"/>
+    <circle cx="1210" cy="32" r="2" opacity="0.5"/>
+    <circle cx="1160" cy="60" r="1.4" opacity="0.4"/>
+  </g>
+
+  <text class="mono text-distant" x="80" y="64" font-size="11" letter-spacing="0.18em">PI AGENT EXTENSION</text>
+
+  <text class="serif ink" x="80" y="152" font-size="80" font-weight="700" letter-spacing="-2.5">rpiv<tspan class="ochre">-</tspan>pi</text>
+  <text class="mono text-quiet" x="80" y="196" font-size="19" letter-spacing="0.2">Skill-based development workflow for Pi Agent.</text>
+
+  <line x1="80" y1="228" x2="1200" y2="228" stroke="#2e2b27" stroke-width="1"/>
+
+  <rect x="80" y="264" width="1120" height="440" rx="3" fill="#1c1a17" stroke="#3a3631" stroke-width="1"/>
+
+  <!-- Pipeline timeline -->
+  <line x1="160" y1="484" x2="1120" y2="484" stroke="#a8896c" stroke-width="2"/>
+  <path d="M1110 475 L1124 484 L1110 493" fill="none" stroke="#a8896c" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Node 01: Discover -->
+  <g transform="translate(200 484)">
+    <circle r="14" fill="#1c1a17" stroke="#a8896c" stroke-width="2"/>
+    <circle r="5" fill="#a8896c"/>
+    <text class="mono text-distant" x="0" y="-36" font-size="11" letter-spacing="0.12em" text-anchor="middle">01</text>
+    <text class="mono ink" x="0" y="52" font-size="15" letter-spacing="0.12em" text-anchor="middle" font-weight="700">DISCOVER</text>
+  </g>
+
+  <!-- Node 02: Research -->
+  <g transform="translate(352 484)">
+    <circle r="14" fill="#1c1a17" stroke="#a8896c" stroke-width="2"/>
+    <circle r="5" fill="#a8896c"/>
+    <text class="mono text-distant" x="0" y="-36" font-size="11" letter-spacing="0.12em" text-anchor="middle">02</text>
+    <text class="mono ink" x="0" y="52" font-size="15" letter-spacing="0.12em" text-anchor="middle" font-weight="700">RESEARCH</text>
+  </g>
+
+  <!-- Node 03: Design -->
+  <g transform="translate(504 484)">
+    <circle r="14" fill="#1c1a17" stroke="#a8896c" stroke-width="2"/>
+    <circle r="5" fill="#a8896c"/>
+    <text class="mono text-distant" x="0" y="-36" font-size="11" letter-spacing="0.12em" text-anchor="middle">03</text>
+    <text class="mono ink" x="0" y="52" font-size="15" letter-spacing="0.12em" text-anchor="middle" font-weight="700">DESIGN</text>
+  </g>
+
+  <!-- Node 04: Plan -->
+  <g transform="translate(656 484)">
+    <circle r="14" fill="#1c1a17" stroke="#a8896c" stroke-width="2"/>
+    <circle r="5" fill="#a8896c"/>
+    <text class="mono text-distant" x="0" y="-36" font-size="11" letter-spacing="0.12em" text-anchor="middle">04</text>
+    <text class="mono ink" x="0" y="52" font-size="15" letter-spacing="0.12em" text-anchor="middle" font-weight="700">PLAN</text>
+  </g>
+
+  <!-- Node 05: Implement -->
+  <g transform="translate(808 484)">
+    <circle r="14" fill="#1c1a17" stroke="#a8896c" stroke-width="2"/>
+    <circle r="5" fill="#a8896c"/>
+    <text class="mono text-distant" x="0" y="-36" font-size="11" letter-spacing="0.12em" text-anchor="middle">05</text>
+    <text class="mono ink" x="0" y="52" font-size="15" letter-spacing="0.12em" text-anchor="middle" font-weight="700">IMPLEMENT</text>
+  </g>
+
+  <!-- Node 06: Validate -->
+  <g transform="translate(960 484)">
+    <circle r="16" fill="#1c1a17" stroke="#8a9580" stroke-width="2"/>
+    <circle r="6" fill="#8a9580"/>
+    <text class="mono text-distant" x="0" y="-38" font-size="11" letter-spacing="0.12em" text-anchor="middle">06</text>
+    <text class="mono sage" x="0" y="54" font-size="15" letter-spacing="0.12em" text-anchor="middle" font-weight="700">VALIDATE</text>
+  </g>
+
+  <!-- Caption -->
+  <text class="mono text-distant" x="640" y="620" font-size="12" letter-spacing="0.2em" text-anchor="middle">CHAINED AI SKILLS &#183; 12 NAMED SUBAGENTS &#183; .rpiv/artifacts/</text>
+
+  <line x1="80" y1="740" x2="1200" y2="740" stroke="#2e2b27" stroke-width="1"/>
+
+  <text class="mono text-distant" x="80" y="776" font-size="12" letter-spacing="0.12em">
+    <tspan class="ochre" font-weight="700">&#9612; rpiv-pi</tspan>
+    <tspan dx="12">&#9474;</tspan>
+    <tspan dx="12" class="sage">main &#9679;</tspan>
+    <tspan dx="12">&#9474;</tspan>
+    <tspan dx="12">npm:@juicesharp/rpiv-pi</tspan>
+  </text>
+</svg>
