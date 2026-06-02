@@ -1,6 +1,6 @@
 ---
 name: mission-user-testing-validator
-description: Validate a Pi mission feature through user-style QA: run the app when possible, click through flows, check rendering, and capture concrete behavioral evidence.
+description: "Validate a Pi mission feature through user-style QA: run the app when possible, click through flows, check rendering, and capture concrete behavioral evidence."
 ---
 
 # Mission User Testing Validator

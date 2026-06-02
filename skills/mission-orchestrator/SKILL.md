@@ -1,6 +1,6 @@
 ---
 name: mission-orchestrator
-description: Plan a Pi mission before code: scope the goal, create milestones/features, and write an implementation-independent validation contract with assertion IDs.
+description: "Plan a Pi mission before code: scope the goal, create milestones/features, and write an implementation-independent validation contract with assertion IDs."
 ---
 
 # Mission Orchestrator
