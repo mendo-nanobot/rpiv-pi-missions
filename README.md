@@ -123,6 +123,16 @@ Mission state lives under `.pi/missions/<mission-id>/`:
 - `handoffs/*.json` — worker handoffs with commands and exit codes
 - `validations/*.json` — scrutiny/user-testing validator records
 
+Open the read-only visual dashboard while a mission is running:
+
+```text
+/mission-dashboard
+/mission-dashboard 4321
+/mission-dashboard-stop
+```
+
+The dashboard binds to `127.0.0.1` only and serves `http://127.0.0.1:4317` by default. It shows every mission stage, progress, blockers, latest handoff/validation, feature status chips, and the exact next expected user input (for example `/mission-approve`, `/mission-next`, `/skill:mission-worker F-001`, or `/mission-repair`).
+
 #### RPIV pipeline
 
 ```
